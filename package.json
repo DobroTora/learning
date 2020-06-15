@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DobroTora/learning/issues"
   },
-  "homepage": "https://github.com/DobroTora/learning#readme"
+  "homepage": "https://github.com/DobroTora/learning#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
 }
