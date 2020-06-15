@@ -1,0 +1,44 @@
+body {
+	background: #92b6f0;
+	color: #111;
+	font: 14px Helvetica;
+	text-align: center;
+}
+
+div, h1, h2, p {
+		margin: 0;
+		padding: 0;
+}
+
+h1 {
+	font-size: 34px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+
+h1:before {
+	content: '— ';
+}
+			
+h1:after {
+	content: ' —';
+}
+
+span {
+    font-size: 30px;
+}
+
+.poem { 
+	margin: auto;
+	padding: 150px 0;
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
